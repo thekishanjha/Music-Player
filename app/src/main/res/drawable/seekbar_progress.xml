@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <!-- Background line color -->
+            <solid android:color="#a8a2a2" />
+            <size android:height="30dp"/>
+            <corners android:radius="9dp"/>
+            <!-- You can define other properties like corner radius, stroke, etc. here -->
+        </shape>
+    </item>
+    <item android:gravity="center_vertical">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item android:state_enabled="false"
+                    android:drawable="@color/purple"/>
+                <item>
+                    <shape android:shape="rectangle">
+                        <solid android:color="#000000"/>
+                        <size android:height="30dp"/>
+                        <corners android:radius="9dp"/>
+                    </shape>
+                </item>
+            </selector>
+        </scale>
+    </item>
+</layer-list>

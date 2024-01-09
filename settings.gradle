@@ -1,0 +1,9 @@
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+}
+rootProject.name = "Music Player"
+include ':app'

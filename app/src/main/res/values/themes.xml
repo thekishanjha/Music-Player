@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appbarcolor</item>
+        <item name="colorPrimaryDark">@color/appbarcolor</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="AppMusicPlayerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#673AB7</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+</resources>

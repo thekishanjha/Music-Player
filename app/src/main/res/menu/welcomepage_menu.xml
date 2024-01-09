@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/searchicon"
+        android:icon="@drawable/search"
+        android:title="@string/search_view"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+    <item
+        android:id="@+id/favourite"
+        android:icon="@drawable/favorite_unfilled"
+        android:title="Favourite"
+        app:showAsAction="ifRoom"
+        android:actionViewClass="androidx.appcompat.widget.AppCompatButton"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/item"
+        android:icon="@drawable/threedots"
+        android:title="@string/search_view"
+        app:showAsAction="always"
+        />
+
+
+</menu>
